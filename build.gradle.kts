@@ -42,7 +42,6 @@ tasks {
     compileKotlin {
         kotlinOptions {
             jvmTarget = "17"
-            languageVersion = "2.0"
             freeCompilerArgs += listOf(
                 "-Xbackend-threads=0"
             )
